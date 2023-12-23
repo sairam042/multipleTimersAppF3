@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+        <h1>Multiple Timers App</h1>
+    <div class="setTime">
+        <div class="set">Set Time:</div>
+        <div class="inputs">
+            <input class = "input" type="number" max="60" min="0" id = "hrs" placeholder="hh">:
+            <input class="input" type="number" max="60" min="0" id="min" placeholder="mm">:
+            <input class="input" type="number" max="60" min="0" id="sec" placeholder="ss">
+        </div>
+        <button id="setTime">Set</button>
+    </div>
+    <div class="timers-head">Current Times</div>
+    <div class="show">
+        <div id="para">you have no timers currently!</div>
+
+        <!-- <div class= "dynamic">
+            <div class="set">Time Left:</div>
+            <div class="inputs">
+                <div class="input">00 </div>:
+                <div class="input">01 </div>:
+                <div class="input">01</div>
+            </div>
+            <button>Delete</button>
+        </div> -->
+    </div>
+
+    
+    <script src="./script.js"></script>
+</body>
+</html>
